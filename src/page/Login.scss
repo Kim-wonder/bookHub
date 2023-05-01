@@ -1,0 +1,50 @@
+.container {
+  // background-color: darkcyan;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap {
+  width: 600px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginArea {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginBtn {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.registerArea {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen {
+}
