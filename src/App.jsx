@@ -7,6 +7,7 @@ import SearchBook from "./page/SearchBook";
 import Write from "./page/Write";
 import User from "./page/User";
 import "./App.scss";
+import app from "./firebase";
 
 function App() {
   return (

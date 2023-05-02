@@ -2,9 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 export default function Input_L(props) {
+  const handleChange = (e) => {
+    props.change(e.target.value);
+  };
+
   return (
     <>
-      <Input placeholder={props.text} type={props.type}></Input>
+      <Input
+        placeholder={props.text}
+        type={props.type}
+        onChange={handleChange}
+      ></Input>
     </>
   );
 }
